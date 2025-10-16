@@ -1,0 +1,160 @@
+<!-- 🧩 Mini Project: Build a Personal Portfolio + Contact Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1 aria-describedby="Im Jeff Welcome to My Page">
+        Jeff - Frontend Developer
+        <img
+          height="70px"
+          width="70px"
+          src="https://cdn-icons-png.flaticon.com/128/9436/9436966.png"
+        />
+      </h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- Hero Section -->
+      <section>
+        <p>Welcome to My Portfolio</p>
+        <figure>
+          <img
+            width="500px"
+            height="500px"
+            src="https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg"
+            alt="A developer writing code in his Laptop"
+          />
+          <figcaption>As a Developer I love Problem solving...</figcaption>
+        </figure>
+      </section>
+      <!-- About Me -->
+      <section>
+        <h3>About Me</h3>
+        <p>This Jeff a Frontend Developer with 4years of Expereince @ Tcs.</p>
+        <p><strong>Skills</strong></p>
+        <ul>
+          <li>HTML</li>
+          <li>Css</li>
+          <li>Javascript</li>
+          <li>React</li>
+        </ul>
+      </section>
+      <!-- Projects -->
+      <section>
+        <article>
+          <h4>Expanding Cards</h4>
+          <p>
+            Expanding Cards is a sleek visual project where clicking on a card
+            causes it to smoothly expand, revealing more content or a larger
+            image. This fun effect can be used to showcase featured images,
+            articles, or highlights on your site.​ <br />
+            <strong
+              >Link to Live Demo <a href="#sample">Expanding Cards</a>
+            </strong>
+          </p>
+          <img
+            src="./Project1.png"
+            alt="expanding card screenshot"
+            width="500px"
+            height="500px"
+          />
+        </article>
+        <article>
+          <h4>Animated Countdown</h4>
+          <p>
+            Animated Countdown is a simple timer that visually counts down from
+            a set number with animated numbers. This is great for product
+            launches, events, or "coming soon" pages which need to display how
+            much time is left.
+            <strong>
+              Link to Live Demo <a href="#sample">Animated Countdown</a></strong
+            >
+          </p>
+          <img
+            src="./Project2.png"
+            alt="Animated countdown screenshot"
+            width="500px"
+            height="500px"
+          />
+        </article>
+      </section>
+
+      <!-- Contact Form -->
+      <section>
+        <form>
+          <fieldset>
+            <legend>Your Feedback Matters</legend>
+            <label for="name">Name</label>
+            <input name="name" type="text" required />
+
+            <label for="email">Email Id</label>
+            <input name="email " type="email" required />
+
+            <label for="feedback">Feedback</label>
+            <input
+              name="feedback"
+              type="text"
+              required
+              minlength="10"
+              maxlength="50"
+              pattern="[A-Z a-z]"
+            />
+            <!-- pattern="[A-Za-z\s]{10,50}" title="Only letters and spaces, between 10–50 characters" -->
+
+            <button aria-label="Submit Button" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section>
+        <h4>
+          Made with ❤️ on
+          <time datetime="2025-12-25">December 25, 2025</time> rights reserved
+          to Jeff
+        </h4>
+        <h4>Connect Us</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/">Facebook</a></li>
+          <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
+
+<!-- 🧱 What Is <fieldset>?
+The <fieldset> element is used to group related form fields together. It creates a visual box around the grouped inputs and helps organize your form logically.
+
+✅ Why Use <fieldset>?
+Improves accessibility: screen readers understand the grouping.
+
+Enhances visual clarity: browsers show a border around the group.
+
+Makes forms easier to navigate and understand.
+
+🏷️ What Is <legend>?
+The <legend> tag is used inside a <fieldset> to provide a title or description for that group of fields.
+
+✅ Why Use <legend>?
+Acts as a label for the entire group.
+
+Helps users and screen readers understand the purpose of the section. -->
