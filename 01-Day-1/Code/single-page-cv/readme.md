@@ -63,5 +63,3 @@ Feel free to fork this repo, customize your CV, and share it with the world!
 ```
 
 ---
-
-Would you like help writing the actual HTML file to go with this README? I can scaffold it for you!
