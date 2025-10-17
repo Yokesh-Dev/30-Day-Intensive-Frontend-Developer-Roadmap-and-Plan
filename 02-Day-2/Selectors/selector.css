@@ -1,0 +1,62 @@
+h1 {
+    color: blue;
+}
+
+/* ✅ Correct: This targets all <h1> elements and makes their text blue. */
+
+.highlight {
+    background-color: yellow;
+}
+
+/* ✅ Correct: This targets any element with the class highlight and gives it a yellow background.
+
+💡 Tip: This is great for reusable styles like alerts or highlights. */
+
+#main-header {
+    font-size: 24px;
+}
+
+/* ✅ Correct: This targets the element with id="main-header" and sets its font size.
+
+💡 Tip: IDs should be unique on the page. Use them for specific sections like headers or footers. */
+
+
+/* Descendant Selector (A B) */
+.name p  {
+    background-color: chartreuse;
+}
+
+/* Child Selector (A > B) */
+section >h6 {
+    background-color: crimson;
+}
+
+section >p {
+    background-color: violet;
+}
+
+/* Adjacent Sibling Selector (A + B) */
+h6+p{
+    border: solid green 2px;
+}
+
+/* General Sibling Selector (A ~ B) */
+ p ~ section {
+    background-color: teal;
+}
+
+
+[action] {
+    border-top: solid 2px red;
+}
+
+
+h2::after {
+    content: "★ "; 
+    color: rgb(188, 53, 255);
+  }
+
+div::after {
+    content:" 💡";
+    color: rgb(188, 53, 255);
+}

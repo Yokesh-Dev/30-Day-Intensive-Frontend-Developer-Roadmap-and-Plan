@@ -1,0 +1,29 @@
+
+/* ✅ This targets all <li> elements inside any <ul> (or other element) with the class menu. */
+.menu li {
+    background-color: burlywood;
+    color: blueviolet;
+}
+
+
+p {
+    background-color: brown;
+}
+
+
+* {
+    background-color: coral;
+}
+
+
+.manipulate {
+    background-color: cornflowerblue;
+}
+
+#change {
+    background-color: yellow;
+}
+
+h1 {
+    color: blue;
+}
