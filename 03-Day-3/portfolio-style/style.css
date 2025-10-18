@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'caveat', Times, serif;
+
+}
+
+/* HEADER COMPONENTS STYLING */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+  }
+
+.navigation li {
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#name {
+    font-weight: 300px;
+    font-size: 30px;
+}
+
+/* MAIN SECTION COMPONENTS */
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.line  {
+    border: 1.5px black solid;
+    margin-bottom: 2px;
+}
+
+.main-info {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 23px;
+    border-bottom: 6px double   black;
+}
+
+#project-head {
+    margin-bottom: 30px;
+    
+}
+
+
+.project {
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+
+
+.work {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .education {
+    display: flex;
+    flex-direction: column;
+ }
+
+ #work-head{
+    margin-bottom: 30px;
+ }
+
+ #education-head{
+    margin-bottom: 30px;
+ }
+
+.project-list {
+    list-style: none;
+}
+
+.project-list li {
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+
+.work {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.job-2 {
+    font-size: 25px;
+    
+}
+
+blockquote {
+    font-weight: bolder;
+}
+
+
+.edu {
+    font-size: 25px;
+}
+
+.courses{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+review-head {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.review {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+
+
+.fb-1 {
+    border: 2px solid blue;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.fb-2 {
+    border: 2px solid blue;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 15px;
+    
+}
+
+.fb-3 {
+    border: 2px solid blue;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+
+em {
+    color: rgb(150, 134, 134);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
