@@ -4,8 +4,28 @@
     border: 0px;
     padding: 0px;
     font-family: 'caveat', Times, serif;
+    /* You use var(--variable-name) to apply the values. */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
 
 }
+
+/* :root targets the highest-level element (usually <html>). */
+:root {
+    --bg-color:#ffffff;
+    --text-color:#000000;
+}
+
+/* This media query checks if the user’s system is set to dark mode.
+If yes, it overrides the default variables with dark mode values. */
+@media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #121212;
+      --text-color: #f5f5f5;
+      --accent-color: #bb86fc;
+    }
+  }
 
 /* HEADER COMPONENTS STYLING */
 .header {
@@ -173,7 +193,7 @@ em {
     color: rgb(150, 134, 134);
 }
 
-
+/* FOOTER SECTION */
 footer {
     display: flex;
     justify-content: center;
@@ -181,3 +201,30 @@ footer {
     font-size: 25px;
     margin-bottom: 15px;
 }
+
+/* MEDIA QUERY */
+
+@media (min-width:300px) and (max-width:600px) {
+    .header {
+        flex-direction: column;
+        background-color: bisque;
+        justify-content: center;
+    }
+
+
+}
+
+@media  (min-width:600px) and (max-width:900px) {
+    .header {
+        flex-direction: column;
+        background-color: rgb(197, 173, 143);
+        justify-content: center;
+    }
+}
+
+@media (min-width:900px) and (max-width:1500px) {
+    .header {
+        /* background-color: rgb(185, 176, 209); */
+    }
+}
+
