@@ -1,0 +1,22 @@
+* {
+  background-color: beige;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+
+.welcome-text {
+  background-color: cadetblue;
+  margin: 50px 0;
+}
+
+
+.welcome-button {
+  border: 4px magenta solid;
+  margin: 50px 50%;  
+  background-color: aqua;
+  padding: 40px;
+}
